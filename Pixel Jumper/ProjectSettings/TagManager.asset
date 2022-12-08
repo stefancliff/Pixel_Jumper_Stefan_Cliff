@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - Bouncing
   - Enemies
   - Hazards
-  - 
+  - Bullets
   - 
   - 
   - 
@@ -61,4 +63,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 293279757
+    locked: 0
+  - name: Bullet
+    uniqueID: 4027684169
     locked: 0
